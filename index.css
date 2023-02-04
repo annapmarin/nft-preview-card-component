@@ -19,6 +19,7 @@ html {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -148,4 +149,11 @@ a {
 
 a:hover, a:active {
   color:aqua;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+  color:hsl(214, 15%, 45%);
+  font-size: 0.9rem;
 }
